@@ -1,0 +1,21 @@
+{
+  "name": "glsl-rgba-to-float",
+  "version": "0.1.0",
+  "description": "WebGL shader function to decode a 32-bit float from the RGBA color channels of a texel",
+  "main": "index.glsl",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "glsl",
+    "webgl",
+    "glslify",
+    "shader"
+  ],
+  "author": "David E. Schneider <davschne@gmail.com> (github.com/davschne)",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ihmeuw/glsl-rgba-to-float.git"
+  }
+}
