@@ -60,8 +60,8 @@ float bitsToFloat(bool bits[32]) {
 }
 
 // Decode a 32-bit float from the RGBA color channels of a texel.
-float rgbaToFloat(vec4 rgbaFloats, bool littleEndian) {
-  ivec4 rgbaBytes = floatsToBytes(rgbaFloats, littleEndian);
+float rgbaToFloat(vec4 texelRGBA, bool littleEndian) {
+  ivec4 rgbaBytes = floatsToBytes(texelRGBA, littleEndian);
   bool bits[32];
   bytesToBits(rgbaBytes, bits);
   return bitsToFloat(bits);
